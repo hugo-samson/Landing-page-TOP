@@ -1,0 +1,60 @@
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.logo, .secondary-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.secondary-text {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-wrap: wrap;
+}
+
+.big-text { 
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.under-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.main-text {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+}
+
+.second {
+    list-style: none;
+}
+
+    /*Après avoir ajouter image dans "main-text", essayer de mettre "justify-content: space-around;" ou les autres*/
