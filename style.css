@@ -2,6 +2,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
@@ -25,6 +29,7 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     flex-wrap: wrap;
+    margin-right: -13px;
 }
 
 .big-text { 
@@ -35,7 +40,8 @@ body {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin-left: -10px;
 }
 
 .under-text {
@@ -47,6 +53,11 @@ button {
     color: #F9FAF8;
     background-color: #3882F6;
     border-radius: 8px;
+    border: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 32px;
 }
 
 .main-text {
@@ -72,7 +83,65 @@ button {
 
 .try {
     width: 100%;
-    position: absolute;
-    top: 0; left: 0;
 }
-    /*Après avoir ajouter image dans "main-text", essayer de mettre "justify-content: space-around;" ou les autres*/
+
+.mid-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    align-self: center;
+    margin-bottom: 32px;
+}
+
+.container {
+   background-color: white; 
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.four-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.images {
+    border: 4px;
+    border-color: #3882F6;
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 18px;
+}
+
+.citation {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 820px;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: -60px;
+    margin-top: 80px;
+}
+
+.autor {
+    font-size: 22px;
+    font-weight: 900;
+    justify-self: center;
+    margin-left: 525px;
+    margin-bottom: 80px;
+}
