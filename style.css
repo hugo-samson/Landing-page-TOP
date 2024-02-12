@@ -1,3 +1,6 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
 
 .header {
     background-color: #1F2937;
@@ -50,11 +53,26 @@ button {
     display: flex;
     background-color: #1F2937;
     color: white;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .second {
     list-style: none;
 }
 
+.image {
+    margin-right: 100px;
+    margin-left: 0px;
+}
+
+.big-text, .under-text, button {
+    margin-left: 60px;
+    margin-right: 0px;
+}
+
+.try {
+    width: 100%;
+    position: absolute;
+    top: 0; left: 0;
+}
     /*Après avoir ajouter image dans "main-text", essayer de mettre "justify-content: space-around;" ou les autres*/
