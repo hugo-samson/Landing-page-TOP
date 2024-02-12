@@ -1,5 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
+    width: 100%;
+    position: absolute;
+    top: 0; left: 0; right: 0;
 }
 
 ul {
@@ -45,6 +48,7 @@ ul {
 }
 
 .under-text {
+    margin-top: -40px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -53,11 +57,12 @@ button {
     color: #F9FAF8;
     background-color: #3882F6;
     border-radius: 8px;
-    border: 0;
+    border: 2;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 32px;
     padding-left: 32px;
+    border-color: white;
 }
 
 .main-text {
@@ -69,11 +74,15 @@ button {
 
 .second {
     list-style: none;
+    max-width: 500px;
+    margin-left: -60px;
 }
 
 .image {
-    margin-right: 100px;
+    margin-right: 35px;
     margin-left: 0px;
+    margin-bottom: 120px;
+    margin-top: 60px;
 }
 
 .big-text, .under-text, button {
@@ -144,4 +153,60 @@ button {
     justify-self: center;
     margin-left: 525px;
     margin-bottom: 80px;
+}
+
+.lower {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+}
+
+.action-text {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: -20px;
+    align-self: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.little-text {
+    font-size: 18px;
+    color: #e5e7eb; 
+    align-self: center;
+    justify-content: center;
+    font-weight: normal;
+    margin-top: -20px;
+    margin-bottom: 70px;
+}
+
+.button {
+    align-self: center;
+    justify-content: center;
+    margin-right: 120px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.foot-text {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.ekip {
+    margin-top: -17px;
 }
